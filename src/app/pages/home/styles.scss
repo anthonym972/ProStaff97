@@ -1,0 +1,17 @@
+@import "~config/styles.scss";
+
+:local(.component) {
+    background: #00ffdd;
+    color: #000;
+    padding: 20px;
+    height: 100vh;
+
+    a {
+        color: #000;
+    }
+
+    h1 {
+        font-size: 60px;
+        margin: 0 0 20px 0;
+    }
+}

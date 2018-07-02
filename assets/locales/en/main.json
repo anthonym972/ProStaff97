@@ -1,0 +1,8 @@
+{
+  "404": {
+    "title": "Page not found",
+    "back": "Back to Home",
+    "link": "Try page 404"
+  },
+  "hello": "Hello {firstname} {lastname} !"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "danfw",
+  "version": "3.0.0",
+  "description": "Dan Frameworks",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dashboard -- node webpack/dev.js",
+    "webpack": "node webpack/dev.js",
+    "build": "node webpack/prod.js"
+  },
+  "keywords": [
+    "frameworks",
+    "dan",
+    "danparis"
+  ],
+  "author": "sidney.bourgalle",
+  "license": "ISC",
+  "devDependencies": {
+    "async": "^2.6.0",
+    "autoprefixer": "^7.2.5",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "chalk": "^2.4.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "copy-webpack-plugin": "^4.3.1",
+    "cross-port-killer": "^1.0.1",
+    "css-loader": "^0.28.9",
+    "express": "^4.16.2",
+    "glslify-loader": "^1.0.2",
+    "html-minifier": "^3.5.8",
+    "html-webpack-plugin": "^2.30.1",
+    "json-loader": "^0.5.7",
+    "minimist": "^1.2.0",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.0.10",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "uglifyjs-webpack-plugin": "^1.2.0",
+    "watch": "^1.0.2",
+    "webpack": "^3.11.0",
+    "webpack-dashboard": "^1.1.1",
+    "webpack-dev-server": "^2.11.2",
+    "webpack-merge": "^4.1.1",
+    "whatwg-fetch": "^2.0.3",
+    "yaml-loader": "^0.5.0"
+  },
+  "dependencies": {
+    "animejs": "^2.2.0",
+    "gulp": "^3.9.1",
+    "mini-signals": "^1.2.0",
+    "preact": "^8.2.7",
+    "preact-compat": "^3.18.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "uniqid": "^4.1.1",
+    "webfontloader": "^1.6.28"
+  }
+}

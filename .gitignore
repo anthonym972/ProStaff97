@@ -1,0 +1,11 @@
+# Fw
+dist
+
+# Npm & Yarn
+node_modules
+yarn.lock
+package-lock.json
+
+# System & IDE
+.DS_Store
+.idea
